@@ -23,6 +23,7 @@ class PostsController < ApplicationController
 
   def edit
     @post = Post.find(params[:id])
+    binding.pry
   end
 
   def update
